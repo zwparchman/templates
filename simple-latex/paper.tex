@@ -1,0 +1,81 @@
+\documentclass{article}
+
+\newcommand{\draftmark}{}
+
+\include{defs}
+\include{macros}
+
+\title{Problem 1.11 Programing Languages}
+\author{Zachary Parchman}
+
+\begin{document}
+\maketitle
+
+\thispagestyle{empty}
+
+\section{Start here}
+starting
+
+%\begin{figure}[htb]
+    %\label{graph}
+    %\centering
+    %\caption{Runtime difference between the three methods}
+    %\setlength{\fboxsep}{3mm}
+    %\includegraphics[clip=true,trim=0 0 0
+    %0,width=0.50\textwidth]{graph.pdf}
+    %\end{figure}
+
+%#########################################################################
+%   Appendix
+%
+% See also: http://www.tex.ac.uk/cgi-bin/texfaq2html?label=appendix
+%
+%#########################################################################
+%\clearpage
+%\noappendicestocpagenum
+%\addappheadtotoc
+%\appendix
+
+
+
+%\section{Appendix}
+%\label{appx:lua}
+
+%\lstset{style=my-c-numbered}
+%\begin{lstlisting}
+%static inline int semi_safe( const vector<int> &v ){
+  %%int sum=0;
+%
+  %for( size_t i=0; ; i++){
+    %if( i > v.size() )
+      %break;
+    %sum+= v[i];
+  %}
+  %return sum;
+%}
+%
+%static inline int safe( const vector<int> &v ){
+  %int sum=0;
+%
+  %try{
+    %for( size_t i=0; ; i++){
+      %sum+= v.at(i);
+    %}
+    %/*do nothing if the bounds are excieded*/
+  %} catch ( std::out_of_range &e ){ } 
+  %return sum;
+%}
+%
+%static inline int unsafe( const vector<int> &v ){
+  %int sum=0;
+%
+  %auto sz = v.size();
+  %for( size_t i=0; i<=sz; i++){
+    %sum+= v[i];
+  %}
+  %return sum;
+%}
+%\end{lstlisting}
+%
+\end{document}
+% vim:tabstop=4:shiftwidth=4:expandtab:textwidth=76:filetype=plaintex

@@ -1,0 +1,9 @@
+Time taken to add 100000 numbers in a vector and access one past the end 
+Times are in microseconds
+Lenght is the number of elements in the vector
+         Length           safe         unsafe      semi_safe
+           1000          32785           1079           4154
+          10000          76544          13116          44664
+         100000         503887         139738         387339
+        1000000    4.80147e+06    1.46167e+06    3.90512e+06
+       10000000    4.90568e+07    2.35026e+07    4.00934e+07
