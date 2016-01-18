@@ -2,7 +2,7 @@ OFLAGS =
 CC=g++
 STD=-std=c++14
 CFLAGS= -g -c -W -Wall -Wextra $(STD) -Wno-missing-field-initializers -Wshadow \
-				-i/home/zack/mysrc/zacklib \
+				-I/home/zack/mysrc/zacklib \
 				$(OFLAGS)
 LFLAGS= -g $(STD) $(OFLAGS) -L/home/zack/lib/ -lzacklib
 
