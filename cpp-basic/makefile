@@ -33,7 +33,7 @@ cache: program
 
 call: program
 	rm c*grind* -f
-	valgrind --tool=callgrind ./program
+	valgrind --tool=callgrind --collect-jumps=yes --dump-instr=yes ./program
 
 inspect: 
 	kcachegrind c*grind\.out\.*
